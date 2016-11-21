@@ -1,0 +1,372 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>WoodCap</title>
+    <meta charset="utf-8"/>
+    
+    <!-- Meta seo -->
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="robots" content="noodp,index,follow" />
+    <meta name="revisit-after" content="1 days" />
+    <meta http-equiv="content-language" content="cn" />
+    <link href="" rel="shortcut icon" type="image/x-icon" />
+    <link rel="author" href="" />
+    <!-- Meta seo -->
+    
+    <!-- Meta responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Meta responsive -->
+    
+    <!-- Css-->
+    <link href="css/bootstrap.min.css" rel="stylesheet"/>        
+    <link href="css/styles.css" rel="stylesheet" />
+    <!-- Css-->
+    
+    <!-- Font awsome -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <!-- Font awsome -->
+    
+    <!-- Jquery -->
+    <script src="js/jquery-1.11.3.min.js" type="text/javascript"></script>
+    <!-- Jquery -->
+    
+    <!-- Bootstrap JS -->
+    <script src="js/bootstrap.min.js" type="text/javascript"></script>
+    <!-- Bootstrap JS -->
+    
+    <!-- Owl carosuel-->
+    <link rel="stylesheet" href="js/owl.carousel/assets/owl.carousel.css"> 
+    <script src="js/owl.carousel/owl.carousel.min.js"></script>
+    <!-- Owl carosuel-->
+    
+    <!--[if lt IE 9]>
+			<script src="js/html5shiv.js"></script>
+			<script src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <!-- Subheader -->
+        <section class="sub-header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <ul class="list-inline language">
+                            <li class="active"><a href="" class="btn">Chinese</a></li>
+                            <li><a href="" class="btn">English</a></li>
+                            <li><a href="" class="btn">Singapore</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4">
+                        <ul class="list-inline social">
+                            <li><a href="" class="btn-social"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="" class="btn-social"><i class="fa fa-google-plus"></i></a></li>
+                            <li><a href="" class="btn-social"><i class="fa fa-twitter"></i></a></li>                                                 <li><a href="" class="btn-social"><i class="fa fa-youtube"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Subheader -->
+        
+        <!-- Main header -->
+        <section class="main-header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <a href="index.html">
+                            <img src="images/logo.png" class="img-responsive"/>
+                        </a>
+                    </div>
+                    <div class="col-lg-6">
+                        <form class="search">
+                            <input type="text" class="text-search pull-right " />
+                            <button class="btn-search"><img src="images/icons/icon-search.png"/></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Main header -->
+    </header>
+    <!-- Header -->
+    
+    <!-- Navigation -->
+    <nav class="navbar navi">
+      <div class="container">
+        <div class="row">
+            
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+            </div>
+
+            
+             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav">
+                <li><a href="index.html">Homepage</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Overview <span class="caret"></span></a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a href="about.html">Company Overview</a></li>                    
+                    <li><a href="#">Investment and development budget</a></li>
+                    <li><a href="#">Investment-oriented and developed in the future</a></li>
+                    <li><a href="#">Presentation from the company's head</a></li>
+                    <li><a href="#">Policies for clients</a></li>
+                  </ul>
+                </li>
+                <li class="active"><a href="services_product.html">Products</a></li>
+                <li><a href="internal.html">Internal pages</a></li>
+                <li><a href="technology.html">Technology</a></li>
+                <li><a href="contact.html">Contact</a></li>                
+              </ul>
+
+            </div>
+        </div>
+        
+      </div>
+    </nav>
+    <!-- Navigation -->
+    
+    <!-- Slider -->
+    <section class="slide">
+        <div id="owl-slide" class="owl-carousel">
+          <div> <img src="images/sliders/slider-banner1.jpg" /> </div>
+          <div> <img src="images/sliders/slider-banner1.jpg" /> </div>
+          <div> <img src="images/sliders/slider-banner1.jpg" /> </div>
+          <div> <img src="images/sliders/slider-banner1.jpg" /></div>
+        </div>
+    </section>
+    <script>
+        $(document).ready(function(){
+          $("#owl-slide").owlCarousel({
+                loop:true,
+                margin:0,
+                nav:true,
+                responsive:{
+                    0:{
+                        items:1
+                    },
+                    600:{
+                        items:1
+                    },
+                    1000:{
+                        items:1
+                    }
+                },
+                autoplay:true,
+                autoplayTimeout:4000,
+                URLhashListener:true,
+                startPosition: 'URLHash'
+            });
+            
+         
+        });
+    </script>
+    <!-- Slider -->        
+    
+    <!-- Service -->
+    <section class="service text-center">
+        <div class="container">
+            <!-- Breadcrumb-->
+            <div class="row">
+                <div class="text-left">
+                    <ol class="breadcrumb">
+                      <li><a href="index.html">Homepage</a></li>
+                      <li><a href="product-detail.html">Product detail</a></li>
+                    </ol>
+                </div>
+            </div>
+            <!-- Breadcrumb-->
+            
+            <!-- Product detail-->
+            <div class="row md20">
+                <div class="col-lg-6">
+                    <img src="images/products/p1.png"/>
+                </div>
+                <div class="col-lg-6 text-center">
+                        <h2 class="md20">The company's typical products</h2>
+                        <a href="#" class="btn btn-big mt20 md20">Learn more <i class="fa fa-chevron-right"></i></a>
+                        <p class="mt20 text-left">About the company's profile has been completed. A general introduction to the audience imagine how evidence how the performance of its products. Straightforward and meaningful inscription. About the company's profile has been completed. A general introduction to the audience imagine how evidence how the performance of its products. Straightforward and meaningful inscription.</p>
+                </div>
+            </div>            
+            <!-- Product detail-->
+            
+            <!-- Tab description-->
+            <div class="row mt20 md20 text-left">
+                <div role="tabpanel">
+
+                      <!-- Nav tabs -->
+                      <ul class="nav nav-tabs md20" role="tablist">
+                        <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Web Design</a></li>
+                        <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Design Software</a></li>
+                        <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Mobile Design</a></li>
+                      </ul>
+
+                      <!-- Tab panes -->
+                      <div class="tab-content">
+                        <div role="tabpanel" class="tab-pane active" id="home">
+                            <p class="mt20">There has been the industry's standard dummy since the 16th century, when an unknown printer took a kitchen type and scrambled it to make a type specimen book text. It has survived not only five centuries, but there has been the industry's standard dummy since the 16th century, when an unknown printer took a kitchen type and scrambled it to make a type specimen book text. It has survived not only five centuries, but there has been the industry's standard dummy since the 16th century, when an unknown printer took a kitchen type and scrambled it to make a type specimen book text. It has survived not only five centuries, but there has been the industry's standard dummy since the 16th century, when an unknown printer took a kitchen type and scrambled it to make a type specimen book text. It has survived not only five centuries, but there has been the industry's standard dummy since the 16th century, when an unknown printer took a kitchen type and scrambled it to make a type specimen book text. It has survived not only five centuries, but there has been the industry's standard dummy since the 16th century, when an unknown printer took a kitchen type and scrambled it to make a type specimen book text. It has survived not only five centuries, but there has been the industry's standard dummy since the 16th century, when an unknown printer took a kitchen type and scrambled it to make a type specimen book text. It has survived not only five centuries, but there has been the industry's standard dummy since the 16th century, when an unknown printer took a kitchen type and scrambled it to make a type specimen book text. It has survived not only five centuries, but there has been the industry's standard dummy since the 16th century, when an unknown printer took a kitchen type and scrambled it to make a type specimen book text. It has survived not only five centuries</p>
+                        </div>
+                        <div role="tabpanel" class="tab-pane" id="profile">
+                           
+                        </div>
+                        <div role="tabpanel" class="tab-pane" id="messages">
+                            
+                        </div>
+                      </div>
+
+                    </div>
+            </div>
+            <!-- Tab description-->
+            
+            
+            <!-- Similar -->
+             <div class="row product mt20">
+                <div class="col-lg-12 mb20">
+                    <h1 class="title"><span>Introduce</span>the company's products released interim</h1>
+                    <p>This is the position the following description of the error to help viewers better understand the text summary of this issue</p>
+                </div>
+                <div class="col-lg-12">
+                    <div class="row">
+                        
+                        <div class="col-lg-3">
+                            <div class="item-border">
+                                <h2>The first service</h2>
+                                <div class="min-height200"><img src="images/products/services/1.jpg"/></div>
+                                <p>The company's first product X</p>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-3">
+                            <div class="item-border">
+                                <h2>The first service</h2>
+                                <div class="min-height200"><img src="images/products/services/2.jpg"/></div>
+                                <p>The company's first product X</p>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-3">
+                            <div class="item-border">
+                                <h2>The first service</h2>
+                                <div class="min-height200"><img src="images/products/services/3.jpg"/></div>
+                                <p>The company's first product X</p>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-3">
+                            <div class="item-border">
+                                <h2>The first service</h2>
+                                <div class="min-height200"><img src="images/products/services/4.png"/></div>
+                                <p>The company's first product X</p>
+                            </div>
+                        </div>                        
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Service -->
+    
+    <!-- Quick contact-->
+    <section class="quick-contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <p class="spec-title">Feel free to call us<span>if you have questions</span></p>    
+                </div>
+                <div class="col-lg-3">
+                    <a href="tel:00123456789">
+                        <img src="images/icons/icon-phone.jpg" />
+                        +00(123)456789
+                    </a>
+                </div>
+                <div class="col-lg-3">
+                    <a href="callto:">
+                        <img src="images/icons/icon-skype.jpg" />
+                        Account name
+                    </a>
+                </div>
+                <div class="col-lg-2">
+                    <a href="" class="btn btn-big-green">Family name</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Quick contact--> 
+    
+    <!-- Footer -->
+    <section class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <h2 class="mb20">Company Overview</h2>
+                    <div class="col-lg-12 nopadding">
+                        <div class="row mb20">
+                            <div class="col-lg-4">
+                                <a href="index.html"><img src="images/f-logo.png"/></a>    
+                            </div>
+                            <div class="col-lg-8">
+                                About company, founded and slogans for the future ... Introduction paragraph introduces the understanding about the company, set up, slogan <br/>
+                                <a href="#" class="invert">Learn more</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-11 mt20 nopadding-left">
+                            In industrialized countries, IT industry is a matter of course, then also developed research. As for the later developing countries
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="col-lg-4">
+                    <h2 class="mb20">Communication</h2>
+                    <div class="col-lg-12">
+                        <p><strong>Address</strong></p>
+                        <p>Recorded information line to solve the company's headquarters, the company, provincial cities</p>
+                        
+                        <p><strong>Phone number</strong></p>
+                        <p>+00(123)456789 <br/>
+                            +00(123)456789</p>
+                        
+                        <p><strong>E-mail</strong> <br/>
+                            <a href="maito:" class="green">email@companyname.com</a></p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <h2 class="mb20">Corporate image</h2>
+                    <img src="images/our/our-images.png"/>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    
+    <!-- Sub footer -->
+    <footer class="sub-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    All rights reserved©2015  Huawei Technologies Co., Ltd.
+                </div>
+                <div class="col-lg-8 pull-right text-right">
+                    <ul class="list-inline">
+                        <li><a href="">Homepage </a></li>
+                        <li><a href="">Overview  </a></li>
+                        <li><a href="">Products  </a></li>
+                        <li><a href="">Internal pages  </a></li>
+                        <li><a href="">Technology  </a></li>
+                        <li><a href="">Contact  </a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Sub footer -->
+</body>
+</html>
